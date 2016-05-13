@@ -1,0 +1,243 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+    .bg_item{
+        display: none;
+    }
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    body{
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    body.active_body{
+        margin-left: -200px;
+    }
+    .header_menu{
+        width: 200px;
+        height: 100%;
+        background-color: #000;
+        position: fixed;
+        margin-right: 0;
+        top:0;
+        z-index: 99999;
+        padding-top: 30px;
+        right: -200px;
+        -webkit-transition: right 0.5s;
+        -o-transition: right 0.5s;
+        transition: right 0.5s;
+    }
+    .header_menu.active_menu{
+        right: 0;
+    }
+    .header_menu li{
+        display: block;
+        text-align: center;
+    }
+    .header_menu a{
+        color: #19BD9A;
+    }
+    .header_menu li a:hover{
+        border-color: #19BD9A; 
+    }
+    .cmn-toggle-switch{
+        display: block;
+        position: relative;
+        right: 50px;
+        top:-17px;
+    }
+    .item_works{
+        float: none;
+    }
+    .classic{
+        width: 100%;
+    }
+    .vintage, .branding{
+        width: 50%;
+        float: left;
+    }
+    .fold_foot{
+        padding-bottom: 20px;
+    }
+    .button_fold_foot{
+        margin-top: 0;
+    }
+    .content_serves{
+        margin-top: 0;
+    }
+    .etabs-2{
+        text-align: center;
+    }
+    .etabs-2 li{
+        display: inline-block;
+    }
+    .etabs-2 li+li{
+        margin-left: 20px;
+    }
+    .block_content{
+        margin-top: 57px;
+    }
+    .progress{
+        text-align: center;
+    }
+    .monik{
+        display: none;
+    }
+    .the_team_item img{
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 60px;
+    }
+    .data{
+        margin-right: 0;
+    }
+    .testimonials .owl-dots{
+        top:-235px;
+    }
+    .blog .section_title{
+        padding-left: 15px;
+    }
+    .item_price{
+        width:33%;
+    }
+    .contact_form .main_input, .main_input{
+        width: 96.3%;
+        margin-right: 0; 
+        margin-bottom: 30px;
+    }
+    input[type="submit"]{
+        width: 96.3%;
+    }
+    .wow, .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    h2{
+        margin-top: 65px;
+    }
+    .items_link li{
+        display: block;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .items_link li + li{
+        margin-left: 0;
+    }
+    .active_foto:after{
+        display: none;
+    }
+    .active_foto:before{
+        display: inline-block;
+    }
+    .portfolio_cta p{
+        font-size: 18px;
+    }
+    .grid{
+        margin-top: 15px;
+    }
+    .testimonials_slid img{
+        margin-left: 0;
+    }
+    .testimonials .owl-dots{
+        top:-145px;
+    }
+    .item_price{
+        float: none;
+        margin: 0 auto 40px;
+        width: 50%;
+        min-width:285px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 500px) {
+    .etabs-2 li + li {
+        margin-left: 8px;
+    }
+    .impressed {
+        margin-top: 60px;
+    }
+    .prog {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    section{
+        padding-bottom: 15px;
+    }
+    .prog span {
+        padding-top: 15px;
+    }
+    .wrapp_progress {
+        float: none; 
+        max-width: 330px;
+        width: auto;
+        margin: 0 auto;
+    }
+
+
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "BIG JOHN";
+    src: url("../fonts/BIG JOHN.otf");
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "OpenSansLight"; */
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../fonts/OpenSans-Light.eot");
+    src: url("../fonts/OpenSans-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSans-Light.woff") format("woff"),
+    url("../fonts/OpenSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansLight"; */
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../fonts/OpenSans-Light.eot");
+    src: url("../fonts/OpenSans-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSans-Light.woff") format("woff"),
+    url("../fonts/OpenSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+/* font-family: "SourceSansProRegular"; */
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url("../fonts/SourceSansProRegular.eot");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SourceSansProLight"; */
+@font-face {
+    font-family: "SourceSansPro-Light";
+    src: url("../fonts/SourceSansPro-Light.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SourceSansProBold"; */
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url("../fonts/SourceSansProBold.eot");
+    font-style: normal;
+    font-weight: normal;
+}
